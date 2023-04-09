@@ -3,7 +3,7 @@ package RA_tests;
 
 
 
-import static org.hamcrest.Matchers.*;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,7 @@ import io.restassured.http.ContentType;
 
 import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
-
+import static org.hamcrest.Matchers.*;
 public class Req_Post {
 
 	public static HashMap<String, Object> map=new HashMap<String, Object>();
